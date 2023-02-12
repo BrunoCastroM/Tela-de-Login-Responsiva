@@ -1,0 +1,96 @@
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    #login {
+        width: 90vw;
+        height: 350px;
+    }
+
+    p {
+        padding: 15px 0px 20px 0px;
+    }
+    
+    #ilogin,
+    #isenha {
+        width: 94%;
+        height: 40px;
+    }
+
+    #imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    #formulario {
+        float: right;
+        width: 70%;
+        margin: auto;
+    }
+
+    .campo {
+        margin: 10px 0px;
+    }
+
+    .btn-entrar {
+        margin-top: 30px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+
+
+/* Telas grandes */
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);;
+    }
+
+    #ilogin,
+    #isenha {
+        width: 94%;
+        height: 43px;
+    }
+
+    #login {
+        width: 950px;
+    }
+
+    #imagem {
+        float: right;
+        width: 40%;
+        height: 100%;
+    }
+
+    #formulario {
+        float: left;
+        width: 60%;
+        margin: auto;
+    }
+
+    .campo {
+        margin: 20px 0px;
+    }
+
+    .btn-entrar {
+        margin-top: 60px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.1em;
+        padding: 20px;
+    }
+}
